@@ -1,0 +1,43 @@
+body {
+  background-size: cover;
+  background-position: center;
+  background-image: url('http://unsplash.s3.amazonaws.com/batch%205/unsplash-kitsune-3.jpg');
+  display: table;
+  margin: auto;
+  height: 100%;
+}
+
+div, a {
+  color: white;
+}
+
+#main {
+  vertical-align: middle;
+  display: table-cell;
+  padding: 1rem;
+}
+
+#column {
+  margin:auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 10rem;
+  line-height: 10.2rem;
+}
+
+.subtitle {
+  font-family: 'Bitter', serif;
+  font-size: 2rem;
+  line-height: 2.2rem;
+}
+
+.paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+  margin-top: 0.2rem;
+}
