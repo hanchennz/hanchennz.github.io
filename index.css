@@ -1,7 +1,7 @@
 body {
   background-size: cover;
   background-position: center;
-  background-image: url('http://unsplash.s3.amazonaws.com/batch%205/unsplash-kitsune-3.jpg');
+  background-image: url('images/background.jpg');
   display: table;
   margin: auto;
   height: 100%;
@@ -18,7 +18,6 @@ div, a {
 }
 
 #column {
-  margin:auto;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1rem;
 }
