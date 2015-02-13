@@ -16,9 +16,13 @@ a {
 }
 
 #main {
-  vertical-align: middle;
-  display: table-cell;
+  display: none;
   padding: 1rem;
+  vertical-align: middle;
+}
+
+#main.displayed {
+  display: table-cell;
 }
 
 #column {
